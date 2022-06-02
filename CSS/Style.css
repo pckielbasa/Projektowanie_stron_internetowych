@@ -1,0 +1,80 @@
+body,html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    background-image: url('../images/background.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    font-style: oblique;
+    font-size: xxx-large;
+    color: black;
+    padding: 40px;
+}
+
+h2.menu{
+    text-align: center;
+    margin-left: 15px;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+a.menu{
+    margin-left: 15px;
+    font-size: 25px;
+}
+
+div.menu{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+p.link{
+    margin-left: 50px;
+}
+
+li{
+    margin: 5px ;
+}
+
+ul{
+    margin: 10px ;
+    font-size: large;
+    font-family: Verdana, serif;
+    font-style: italic;
+    color: black;
+}
+
+#left_div{
+    float: left;
+    background-color: gray;
+    min-height: 80%;
+    width: 16%;
+    height: available;
+    margin-left: 130px;
+}
+
+#center_div{
+    float: left;
+    width: 30%;
+    margin-left: 100px;
+    min-height: 80%;
+    height: available;
+}
+
+#right_div{
+    float: right;
+    width: 30%;
+    height: available;
+    min-height: 80%;
+    margin-right: 150px;
+}
