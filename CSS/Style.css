@@ -3,6 +3,15 @@ body,html {
     margin: 0;
     padding: 0;
 }
+td, th {
+    border: 1px solid black;
+    padding: 4px;
+    background-color: wheat;
+    text-align: center;
+    font-style: unset;
+    font-family: Verdana, serif;
+    font-size: 20px;
+}
 
 .background{
     background-image: url('../images/background.jpg');
@@ -22,24 +31,29 @@ h1{
 
 h2.menu{
     text-align: center;
-    margin-left: 15px;
     font-size: xx-large;
     font-style: italic;
 }
 
 a.menu{
-    margin-left: 15px;
     font-size: 25px;
 }
+
+a.menu:link { color: blue; }
+
+a.menu:visited { color: powderblue; }
+
+a.menu:hover{ color: brown}
+
 
 div.menu{
     border: 2px solid black;
     padding: 10px;
     text-align: center;
 }
+img.grid{
+    padding: 15px;
 
-p.link{
-    margin-left: 50px;
 }
 
 li{
@@ -56,11 +70,11 @@ ul{
 
 #left_div{
     float: left;
-    background-color: gray;
     min-height: 80%;
     width: 16%;
     height: available;
     margin-left: 130px;
+    /*background-color: gray;*/
 }
 
 #center_div{
@@ -69,7 +83,8 @@ ul{
     margin-left: 100px;
     min-height: 80%;
     height: available;
-    background-color: gray;
+    font-size: 17px;
+    /*background-color: gray;*/
 }
 
 #right_div{
@@ -78,5 +93,5 @@ ul{
     height: available;
     min-height: 80%;
     margin-right: 150px;
-    background-color: forestgreen;
+    /*background-color: forestgreen;*/
 }
