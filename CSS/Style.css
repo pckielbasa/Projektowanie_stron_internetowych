@@ -45,12 +45,18 @@ a.menu:visited { color: powderblue; }
 
 a.menu:hover{ color: brown}
 
+p.dane{
+    margin-left: 10px;
+    font-size: 20px;
+
+}
 
 div.menu{
     border: 2px solid black;
     padding: 10px;
     text-align: center;
 }
+
 img.grid{
     padding: 15px;
 
