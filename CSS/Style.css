@@ -62,11 +62,11 @@ img.grid{
 
 }
 
-li{
+li.gatunek{
     margin: 5px ;
 }
 
-ul{
+ul.gatunek{
     margin: 10px ;
     font-size: large;
     font-family: Verdana, serif;
