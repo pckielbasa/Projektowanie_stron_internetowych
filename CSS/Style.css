@@ -80,7 +80,6 @@ ul.gatunek{
     width: 16%;
     height: available;
     margin-left: 130px;
-    /*background-color: gray;*/
 }
 
 #center_div{
@@ -90,7 +89,6 @@ ul.gatunek{
     min-height: 80%;
     height: available;
     font-size: 17px;
-    /*background-color: gray;*/
 }
 
 #right_div{
@@ -99,5 +97,4 @@ ul.gatunek{
     height: available;
     min-height: 80%;
     margin-right: 150px;
-    /*background-color: forestgreen;*/
 }
